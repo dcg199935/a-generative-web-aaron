@@ -69,6 +69,17 @@
       <img  src="square05.png" alt="square01" width="1250px">
     </div>
 
+    <button id="6" onclick="myFunction()">
+      <div class="circle01">
+        <img src="circle06.png" alt="profile" width="150px">
+      </div>
+    </button>
+
+    <div id="square06">
+      <img  src="square06.png" alt="square01" width="1250px">
+    </div>
+
+
   <script>
     function myFunction() {
       var x = document.getElementById("square01");
@@ -96,6 +107,12 @@
         x.style.display = "none";
       }
       var x = document.getElementById("square05");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+      var x = document.getElementById("square06");
       if (x.style.display === "none") {
         x.style.display = "block";
       } else {
