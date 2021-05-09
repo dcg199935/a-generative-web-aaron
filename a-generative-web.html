@@ -79,7 +79,7 @@
       <img  src="square06.png" alt="square01" width="1250px">
     </div>
 
-    <button id="6" onclick="myFunction()">
+    <button id="7" onclick="myFunction()">
       <div class="circle01">
         <img src="circle07.png" alt="profile" width="150px">
       </div>
@@ -87,6 +87,14 @@
 
     <div id="square07">
       <img  src="square07.png" alt="square01" width="1250px">
+    </div>
+    <button id="8" onclick="myFunction()">
+      <div class="circle01">
+        <img src="circle08.png" alt="profile" width="150px">
+      </div>
+    </button>
+    <div id="square08">
+      <img  src="square08.png" alt="square01" width="1250px">
     </div>
 
   <script>
@@ -128,6 +136,12 @@
         x.style.display = "none";
       }
       var x = document.getElementById("square07");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+      var x = document.getElementById("square08");
       if (x.style.display === "none") {
         x.style.display = "block";
       } else {
