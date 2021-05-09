@@ -139,6 +139,15 @@
       <img  src="square12.png" alt="square01" width="1250px">
     </div>
 
+    <button id="13" onclick="myFunction()">
+      <div class="circle13">
+        <img src="circle13.png" alt="profile" width="150px">
+      </div>
+    </button>
+
+    <div id="square13">
+      <img  src="square13.png" alt="square01" width="1250px">
+    </div>
 
   <script>
     function myFunction() {
@@ -212,6 +221,13 @@
       }
 
       var x = document.getElementById("square12");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+
+      var x = document.getElementById("square13");
       if (x.style.display === "none") {
         x.style.display = "block";
       } else {
